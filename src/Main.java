@@ -1,6 +1,8 @@
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Aplicación Gestor de Tareas");
+        GestorTareas gestor = new GestorTareas();
+        System.out.println("=== GESTOR DE TAREAS ===");
+        gestor.listarTareas();
     }
 }
